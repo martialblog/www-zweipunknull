@@ -1,0 +1,98 @@
+/* CSS reset... Stuff */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {
+  margin:0;
+  padding:0;
+}
+html,body {
+  margin:0;
+  padding:0;
+}
+table {
+  border-collapse:collapse;
+  border-spacing:0;
+}
+fieldset,img {
+  border:0;
+}
+address,caption,cite,code,dfn,th,var {
+  font-style:normal;
+  font-weight:normal;
+}
+ol,ul {
+  list-style:none;
+}
+caption,th {
+  text-align:left;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-size:100%;
+  font-weight:normal;
+}
+q:before,q:after {
+  content:'';
+}
+abbr,acronym {
+  border:0;
+}
+
+/* 2P0 Stuff */
+body {
+  background:#fff;
+  color: #333;
+  font-family: 'Lato', 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', 'Lato', Helvetica, Arial, 'Lucida Grande', sans-serif;
+}
+a {
+  color: #333;
+  text-decoration: none;
+}
+.main{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  padding:10px;
+}
+.footer a {
+  font-size: 15px;
+  text-transform: uppercase;
+  opacity: 0.8;
+}
+.footer a:hover {
+  opacity: 1;
+}
+.info {
+  width:320px;
+  text-align: center;
+}
+.info p {
+  text-align: justify;
+  color: #333;
+  border-top: 1px solid #888;
+  border-bottom: 1px solid #888;
+  padding: 5px;
+}
+a.mainlink {
+  font-weight: 300;
+  font-size: 26px;
+  display: block;
+  padding: 10px 0;
+  opacity: 0.6;
+}
+a.mainlink:hover {
+  opacity: 1;
+}
+/* .titles */
+.wattba {color: #52787B;}
+.tumblr {color: #C12940;}
+.music  {color: #52787B;}
+.xyz    {color: #C12940;}
+  /*
+  .wattba {color: #D95B45;}
+  .tumblr {color: #552437;}
+  .music {color: #52787B;}
+  .xyz {color: #C12940;}
+  */

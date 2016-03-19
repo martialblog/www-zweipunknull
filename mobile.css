@@ -1,0 +1,103 @@
+/* CSS reset... Stuff */
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {
+  margin:0;
+  padding:0;
+}
+html,body {
+  margin:0;
+  padding:0;
+}
+table {
+  border-collapse:collapse;
+  border-spacing:0;
+}
+fieldset,img {
+  border:0;
+}
+address,caption,cite,code,dfn,th,var {
+  font-style:normal;
+  font-weight:normal;
+}
+ol,ul {
+  list-style:none;
+}
+caption,th {
+  text-align:left;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-size:100%;
+  font-weight:normal;
+}
+q:before,q:after {
+  content:'';
+}
+abbr,acronym {
+  border:0;
+}
+
+/* General Stuff */
+
+body {
+  background:#eee;
+  color: #333;
+  font-family: 'HelveticaNeue-Light', 'Lato', 'Helvetica Neue Light', 'Helvetica Neue', 'Lato', Helvetica, Arial, 'Lucida Grande', sans-serif;
+}
+a {
+  color: #333;
+  text-decoration: none;
+}
+.main{
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%);
+}
+.footer a {
+  background: #fff;
+  display: block;
+  border-bottom: 1px solid #888;
+  text-align: center;
+  padding: 5px;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.footer .sep {
+  display: none;
+}
+.mainlinks a {
+  background: #fff;
+  display: block;
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 40px;
+  padding: 5px 50px;
+  text-transform: uppercase;
+}
+.tld {
+  display: none;
+}
+.info {
+  width: 320px;
+  text-align: center;
+  font-size: 15px;
+  margin: 3px;
+}
+.info p {
+  text-align: justify;
+  color: #333;
+  border-top: 1px solid #888;
+  border-bottom: 1px solid #888;
+  padding: 5px;
+}
+/* .titles */
+.wattba {color: #52787B;}
+.tumblr {color: #C12940;}
+.music  {color: #52787B;}
+.xyz    {color: #C12940;}
+  /*
+  .wattba {color: #D95B45;}
+  .tumblr {color: #552437;}
+  .music {color: #52787B;}
+  .xyz {color: #C12940;}
+  */
